@@ -1,12 +1,17 @@
+/**
+ * 美美发app 入口文件
+ * @author Perlou
+ */
+
 App({
   onLaunch: function () {
-    console.log('App Launch')
+    console.log('This is Launch, 只触发一次')
   },
   onShow: function () {
-    console.log('App Show')
+    console.log('This is Show')
   },
   onHide: function () {
-    console.log('App Hide')
+    console.log('This is Hide')
   },
   globalData: {
     hasLogin: false
